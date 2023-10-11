@@ -1,0 +1,70 @@
+.p-img {
+  height: 60vh;
+  width: 100vw;
+  object-fit: cover;
+  /* margin: auto; */
+}
+
+.card_layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+}
+
+.card_layout .card_main {
+  flex: 0 0 23%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 10px 1%;
+}
+
+.card_main .card_main_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.card_main_sub {
+  margin-bottom: 5px;
+}
+
+.card_main_button {
+  margin-top: 5px;
+}
+
+/* 반응형 */
+@media only screen and (max-width:1199px)  {
+  .card_layout .card_main {
+    flex: 0 0 31%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 1%;
+  }
+}
+
+@media only screen and (max-width:991px)  {
+  .sub_title {
+    font-size: 30px;
+  }
+  .card_layout .card_main {
+    flex: 0 0 46%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 2%;
+  }
+}
+
+@media only screen and (max-width:414px)  {
+  .sub_title {
+    font-size: 25px;
+  }
+  .card_layout .card_main {
+    flex: 0 0 96%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 2%;
+  }
+}
