@@ -20,7 +20,7 @@ const CompanyDelete = (props) => {
                 window.location.reload();
             }
         }))
-    }
+    };
     return(
         <Button variant="danger" onClick={()=>{
             deleteCustomer(props.id);

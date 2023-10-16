@@ -7,7 +7,7 @@ app.set('port', process.env.PORT || 5000);
 //서버 생성 및 리소닝
 let server = http.createServer(app).listen(app.get('port'), ()=>{
     console.log(`express 이용하여 서버 생성 후 리소닝 ..`);
-})
+});
 
 //MYSQL 설정 (커넥션 풀 이용하여 DB 접근)
 let mysql = require('mysql');
@@ -18,7 +18,7 @@ let pool = mysql.createPool({
     password : '111111',
     database : 'reactdb',
     debug : false
-})
+});
 
 //특정 폴더에 url로 접근 설정
 let static = require('serve-static');
@@ -66,7 +66,7 @@ router.route('/api/companyList').all((req, res)=>{
             res.send(results);
         })
     })
-})
+});
 
 
 // DB 연동
@@ -107,7 +107,7 @@ router.route('/api/companyUpload').all(upload.single('file'), (req, res)=>{
         })
 
     })
-})
+});
 
 //데이터 삭제
 router.route('/api/companyDelete').all((req, res)=>{
@@ -134,7 +134,7 @@ router.route('/api/companyDelete').all((req, res)=>{
             res.send(results);
         })
     })
-})
+});
 
 //데이터 수정
 router.route('/api/companyModify').all(upload.single('file'), (req,res)=>{
@@ -169,4 +169,4 @@ router.route('/api/companyModify').all(upload.single('file'), (req,res)=>{
             res.send(results);
         })
     })
-})
+});

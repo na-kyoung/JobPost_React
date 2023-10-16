@@ -38,7 +38,7 @@ const CompanyModify = (props) => {
         e.preventDefault();
         modifyCompany();
         window.location.reload();
-    }
+    };
 
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
