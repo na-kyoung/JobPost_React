@@ -68,6 +68,8 @@ router.route('/api/companyList').all((req, res)=>{
     })
 })
 
+
+// DB 연동
 //데이터 저장 처리
 const multer = require('multer');
 //upload에 데이터 저장
