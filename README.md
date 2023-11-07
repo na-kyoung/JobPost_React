@@ -16,19 +16,23 @@ Database 연동과 Node.js를 이용한 서버 연결을 활용한 프로젝트�
 <br />
 
 ## 개발 환경
-- FrontEnd : React
+- FrontEnd : ReactJS, JavaScript, HTML/CSS
 - BackEnd : Node.js
 - Database : MySQL
-- IDE : VSCode, HeidiSQL
+- 라이브러리 : axios, react-bootstrap
+- 프레임워크 : express
+- 모듈 : http, multer, mysql
 
 <br />
 
 ## 구현 기능
-- 채용 공고 보기
-- 채용 공고 추가
-- 채용 공고 수정
-- 채용 공고 삭제
-- 반응형 웹 디자인
+- 채용 공고
+   - 채용 공고 보기
+   - 채용 공고 추가
+   - 채용 공고 수정
+   - 채용 공고 삭제
+- 웹디자인
+   - 웹 가로 길이에 따라 다른 반응형 웹 디자인
 
 <br />
 
