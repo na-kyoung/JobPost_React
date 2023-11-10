@@ -68,3 +68,6 @@ Database 연동과 express.js를 이용한 서버 연결을 활용한 프로젝�
 ![5](https://github.com/na-kyoung/JobPost_React/assets/137421820/c000805e-5c62-4a01-94f3-ec5516d4168e)
 
 ![6](https://github.com/na-kyoung/JobPost_React/assets/137421820/1721f9d6-fb1e-4809-8261-ede74cc21385)
+
+![7](https://github.com/na-kyoung/JobPost_React/assets/137421820/d505ddb6-e3f5-4089-9a25-37592c45c3bc)
+
